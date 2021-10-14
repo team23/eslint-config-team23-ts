@@ -1,0 +1,21 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "allowJs": true,
+        "alwaysStrict": true,
+        "baseUrl": ".",
+        "declaration": false,
+        "downlevelIteration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "paths": {},
+        "rootDir": ".",
+    },
+}
