@@ -23,12 +23,11 @@
         "eslint-config-team23-standard": "git+https://gitlab+deploy-token-62:qEJ4aFao4yVZcFmrz9VV@git.team23.de/team23/eslint-config-team23-standard.git#v1.0.1"
     },
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.0.0",
-        "@typescript-eslint/parser": "^5.0.0",
-        "eslint": "^7.32.0",
-        "eslint-plugin-import": "^2.25.2",
-        "eslint-plugin-jsdoc": "^36.1.1",
-        "eslint-plugin-prefer-arrow": "^1.2.3",
-        "eslint-plugin-unicorn": "^37.0.1"
+        "@typescript-eslint/eslint-plugin": "^4.0.0 || ^5.0.0",
+        "@typescript-eslint/parser": "^4.0.0 || ^5.0.0",
+        "eslint": "^7.22.0",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-jsdoc": "^32.3.0",
+        "eslint-config-team23-standard": "git+https://gitlab+deploy-token-62:qEJ4aFao4yVZcFmrz9VV@git.team23.de/team23/eslint-config-team23-standard.git#v1.0.1"
     }
 }
