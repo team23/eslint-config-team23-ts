@@ -5,8 +5,7 @@ module.exports = {
     },
     extends: [
         'eslint:recommended',
-        'plugin:@typescript-eslint/recommended',
-        'eslint-config-team23-standard',
+        'plugin:@typescript-eslint/recommended'
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
