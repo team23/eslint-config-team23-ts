@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.8
+- Disable **no-shadow** due to conflicts with **@typescript-eslint/no-shadow**
+
 ## v1.0.7
 - Update **@typescript-eslint/naming-convention** to allow leading underscore to mark unused variables for ts
 

@@ -25,6 +25,7 @@ module.exports = {
                 project: 'tsconfig.base.json',
             },
             rules: {
+                "no-shadow": "off",
                 '@typescript-eslint/no-redeclare': ['error'],
                 '@typescript-eslint/no-parameter-properties': 'off',
                 '@typescript-eslint/no-extraneous-class': 'off',
