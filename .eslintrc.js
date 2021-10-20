@@ -152,7 +152,7 @@ module.exports = {
                             'snake_case',
                             'PascalCase',
                         ],
-                        leadingUnderscore: 'forbid',
+                        leadingUnderscore: 'allow',
                         filter: {
                             regex: '^(O_o)$',
                             match: false,
