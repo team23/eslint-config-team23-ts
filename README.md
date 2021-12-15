@@ -54,13 +54,11 @@ Simply add a `"rules"` key to your config, then add your overrides and additions
 ## Development
 
 #### Rules that should be included here
- - eslint rules
  - tslint rules
- - angular rules (including ones that relate to templates)
 
 #### Rules that should NOT be included here
- - nx rules 
- - rules from other frameworks, libraries, etc.
+ - eslint rules
+ - rules from other frameworks (angular, react, vue), libraries (nx), etc.
 
 ### Proposing rule changes
 
@@ -84,4 +82,4 @@ If you want a brief test of this repo, do the following:
 - Run `npm run lint`
 
 ## [License](LICENSE)
-Team23
+TEAM23 GmbH
