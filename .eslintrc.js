@@ -5,7 +5,7 @@ module.exports = {
     },
     extends: [
         'eslint:recommended',
-        'plugin:@typescript-eslint/recommended'
+        'plugin:@typescript-eslint/recommended',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -25,7 +25,7 @@ module.exports = {
                 project: 'tsconfig.base.json',
             },
             rules: {
-                "no-shadow": "off",
+                'no-shadow': 'off',
                 '@typescript-eslint/no-redeclare': ['error'],
                 '@typescript-eslint/no-parameter-properties': 'off',
                 '@typescript-eslint/no-extraneous-class': 'off',
@@ -125,7 +125,9 @@ module.exports = {
                 '@typescript-eslint/unified-signatures': 'error',
                 '@typescript-eslint/typedef': 'error',
                 '@typescript-eslint/no-dynamic-delete': 'error',
-                '@typescript-eslint/dot-notation': 'error',
+                '@typescript-eslint/dot-notation': ['error', {
+                    'allowIndexSignaturePropertyAccess': true,
+                }],
                 '@typescript-eslint/promise-function-async': 'error',
                 '@typescript-eslint/quotes': [
                     'error',
