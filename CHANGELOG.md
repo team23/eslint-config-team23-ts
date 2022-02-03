@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.0.1
+- Update **dot-notation** to support **noPropertyAccessFromIndexSignature**
+
+## v2.0.0
+- Update **eslint** to version 2.0.0 
+
 ## v1.0.8
 - Disable **no-shadow** due to conflicts with **@typescript-eslint/no-shadow**
 
