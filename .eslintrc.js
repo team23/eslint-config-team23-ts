@@ -206,6 +206,13 @@ module.exports = {
                         leadingUnderscore: 'require',
                     },
                 ],
+                "no-magic-numbers": "off",
+                "@typescript-eslint/no-magic-numbers": [
+                    "error",
+                    {
+                        "ignoreReadonlyClassProperties": true
+                    }
+                ],
             },
         },
     ],
