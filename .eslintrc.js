@@ -210,6 +210,13 @@ module.exports = {
                 "@typescript-eslint/no-magic-numbers": [
                     "error",
                     {
+                        "ignoreDefaultValues": true,
+                        "detectObjects": true,
+                        "ignore": [
+                            -1,
+                            1,
+                            0
+                        ],
                         "ignoreReadonlyClassProperties": true
                     }
                 ],
