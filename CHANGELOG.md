@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.3
+- Add exceptions to **@typescript-eslint/no-magic-numbers**
+
 ## v2.0.2
 - Disable **no-magic-numbers** to avoid conflicts with **@typescript-eslint/no-magic-numbers**
 - Update **@typescript-eslint/no-magic-numbers** to **ignoreReadonlyClassProperties**
