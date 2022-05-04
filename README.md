@@ -6,7 +6,7 @@ A set of eslint rules used by TEAM23 for standard ts projects
 Add the library to your `package.json` as `devDependency`
 
 ```json
-"eslint-config-team23-ts": "git+https://gitlab+deploy-token-XY:DEPLOY_TOKEN_PW@git.team23.de/team23/eslint-config-team23-ts.git#v1.0.5",
+npm i --save-dev @team23/eslint-config-team23-ts
 ```
 
 ### Usage in your project
@@ -16,7 +16,7 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
 #### Extend Globally
 ```json
 {
-    "extends": "eslint-config-team23-ts"
+    "extends": "@team23/eslint-config-team23-ts"
 }
 ```
 
@@ -30,7 +30,7 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
                 "*.tsx"
             ],
             "extends": [
-                "eslint-config-team23-ts"
+                "@team23/eslint-config-team23-ts"
             ],
             rules: {}
         }
@@ -44,7 +44,7 @@ Simply add a `"rules"` key to your config, then add your overrides and additions
 
 ```json
 {
-    "extends": "eslint-config-team23-ts"
+    "extends": "@team23/eslint-config-team23-ts"
     "rules": {
         "@typescript-eslint/naming-convention": "off"
     }
