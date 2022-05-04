@@ -5,7 +5,7 @@ A set of eslint rules used by TEAM23 for standard ts projects
 ## Installation in your project
 Add the library to your `package.json` as `devDependency`
 
-```json
+```bash
 npm i --save-dev @team23/eslint-config-team23-ts
 ```
 
