@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.4
+- Add rule **@typescript-eslint/space-infix-ops**
+
 ## v2.0.3
 - Add exceptions to **@typescript-eslint/no-magic-numbers**
 
