@@ -220,6 +220,8 @@ module.exports = {
                         "ignoreReadonlyClassProperties": true
                     }
                 ],
+                "space-infix-ops": "off",
+                "@typescript-eslint/space-infix-ops": ["error", { "int32Hint": true }],
             },
         },
     ],
