@@ -1,6 +1,6 @@
 # Changelog
 
-## v2.0.4
+## v2.0.5
 - Ignore **polyfills** and **jest.config** from linting
 
 ## v2.0.4
