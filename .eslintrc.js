@@ -15,6 +15,7 @@ module.exports = {
     plugins: [
         '@typescript-eslint',
     ],
+    ignorePatterns: ["polyfills.ts", "jest.config.ts"],
     overrides: [
         {
             files: [
