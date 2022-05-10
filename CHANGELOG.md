@@ -1,6 +1,9 @@
 # Changelog
 
 ## v2.0.4
+- Ignore **polyfills** and **jest.config** from linting
+
+## v2.0.4
 - Add rule **@typescript-eslint/space-infix-ops**
 
 ## v2.0.3
