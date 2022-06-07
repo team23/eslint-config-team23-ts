@@ -218,7 +218,8 @@ module.exports = {
                             1,
                             0
                         ],
-                        "ignoreReadonlyClassProperties": true
+                        "ignoreReadonlyClassProperties": true,
+                        "ignoreEnums": true
                     }
                 ],
                 "space-infix-ops": "off",
