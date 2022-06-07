@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.7
+- Add **ignoreEnums** to **@typescript-eslint/no-magic-numbers** 
+
 ## v2.0.5
 - Ignore **polyfills** and **jest.config** from linting
 
