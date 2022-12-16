@@ -1,5 +1,8 @@
 # Changelog
 
+## v4.0.0
+- Adapt version to major typescript version
+
 ## v2.0.7
 - Add **ignoreEnums** to **@typescript-eslint/no-magic-numbers** 
 
