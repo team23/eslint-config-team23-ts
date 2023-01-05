@@ -1,5 +1,8 @@
 # Changelog
 
+## v4.0.1
+- change path of typescript parserOptions
+
 ## v4.0.0
 - Adapt version to major typescript version
 

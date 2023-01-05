@@ -23,7 +23,7 @@ module.exports = {
                 '*.tsx',
             ],
             parserOptions: {
-                project: 'tsconfig.base.json',
+                project: ['tsconfig.?*.json'],
             },
             rules: {
                 'no-shadow': 'off',
