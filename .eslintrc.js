@@ -212,7 +212,7 @@ module.exports = {
                     "error",
                     {
                         "ignoreDefaultValues": true,
-                        "detectObjects": true,
+                        "detectObjects": false,
                         "ignore": [
                             -1,
                             1,

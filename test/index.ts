@@ -25,6 +25,10 @@ export class Test {
     }
 }
 
-const a = new Test().test;
+let a: unknown = new Test().test;
 
 console.error(a);
+
+a = {
+    magicNumberInObjectIsAllowed: 2,
+};

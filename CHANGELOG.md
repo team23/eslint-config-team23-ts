@@ -1,5 +1,8 @@
 # Changelog
 
+## v4.0.2
+- Update **@typescript-eslint/no-magic-numbers** to allow magic numbers in objects
+
 ## v4.0.1
 - change path of typescript parserOptions
 
