@@ -1,5 +1,13 @@
 # Changelog
 
+## v6.0.0
+### Breaking Changes
+- Update peerDependency `@typescript-eslint/eslint-plugin` to version `^6.0.0`
+- Update peerDependency `@typescript-eslint/parser` to version `^6.0.0`
+
+### Other Changes
+- Adapt version to major `@typescript-eslint`
+
 ## v4.0.2
 - Update **@typescript-eslint/no-magic-numbers** to allow magic numbers in objects
 
