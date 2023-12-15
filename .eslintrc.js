@@ -226,5 +226,28 @@ module.exports = {
                 "@typescript-eslint/space-infix-ops": ["error", { "int32Hint": true }],
             },
         },
+        {
+            "files": [
+                "cypress.config.ts",
+                "cypress.**.config.ts"
+            ],
+            "rules": {
+                "import/no-default-export": "off",
+                "no-console": "off"
+            }
+        },
+        {
+            "files": [
+                "*.po.ts"
+            ],
+            "rules": {
+                "@typescript-eslint/explicit-function-return-type": "off"
+            }
+        },
+        {
+            "files": "*.json",
+            "parser": "jsonc-eslint-parser",
+            "rules": {}
+        }
     ],
 };
