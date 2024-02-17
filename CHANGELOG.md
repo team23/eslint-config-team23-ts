@@ -1,8 +1,11 @@
 # Changelog
 
-## v6.0.1 (WIP)
+## v7.0.1 (WIP)
 - Disable some rules for `cypress` projects
 
+## v7.0.0
+- Update peerDependency `@typescript-eslint/eslint-plugin` to version `^6.0.0 || ^7.0.0`
+- Update peerDependency `@typescript-eslint/parser` to version `^6.0.0 || ^7.0.0`
 
 ## v6.0.0
 ### Breaking Changes
