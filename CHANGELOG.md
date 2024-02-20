@@ -4,7 +4,7 @@
 ### Breaking Changes
 - Remove 'do', 'does' and 'did' from boolean prefixes for `@typescript-eslint/naming-convention`
 
-## v7.0.1 (WIP)
+### Other Changes
 - Disable some rules for `cypress` projects
 
 ## v7.0.0
