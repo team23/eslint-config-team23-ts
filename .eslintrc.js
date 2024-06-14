@@ -175,11 +175,8 @@ module.exports = {
                             'should',
                             'has',
                             'can',
-                            'did',
                             'will',
-                            'does',
                             'are',
-                            'do',
                         ],
                     },
                     {
